@@ -27,14 +27,15 @@ jobs:
         npm install
         npm run build --if-present
         npm run test --if-present
+        - name: ZIP Asset
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      run: |
+        zip -r build.zip .    
     - name: Upload Build Folder
       if: github.event_name == 'push'
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v2
       with:
-        name: build
-        path: .
-    - name: ZIP Asset
-      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-      run: |
-        zip -r build.zip .
+        name: node-app
+        path: build.zip
+
         
