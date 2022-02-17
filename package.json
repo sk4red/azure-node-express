@@ -1,5 +1,5 @@
 {
-  "name": "node-express-azure",
+  "name": "azuree-node-express",
   "version": "1.0.0",
   "description": "> Build Your First CI/CD Pipeline using Azure DevOps with this Demo App.",
   "main": "app.js",
@@ -28,11 +28,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timothywarner/node-express-azure.git"
+    "url": "git+https://github.com/sk4red/azure-node-express.git"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/timothywarner/node-express-azure/issues"
+    "url": "https://github.com/sk4red/azure-node-express/issues"
   },
-  "homepage": "https://github.com/timothywarner/node-express-azure#readme"
+  "homepage": "https://github.com/sk4red/azure-node-express#readme"
 }
