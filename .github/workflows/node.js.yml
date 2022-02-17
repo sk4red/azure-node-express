@@ -28,7 +28,7 @@ jobs:
         npm run build --if-present
         npm run test --if-present
     - name: ZIP Asset
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
       run: zip build.zip ./* -r
     - name: Upload Build Folder
       if: github.event_name == 'push'
