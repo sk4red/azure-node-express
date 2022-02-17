@@ -1,5 +1,5 @@
 module.exports = {
-    branches: ["main","master"],
+    branches: ["main"],
     repositoryUrl: "https://github.com/sk4red/azure-node-express",
     plugins: [
       "@semantic-release/commit-analyzer",
