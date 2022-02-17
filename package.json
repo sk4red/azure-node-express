@@ -34,5 +34,10 @@
   "bugs": {
     "url": "https://github.com/sk4red/azure-node-express/issues"
   },
+  
+  "release": {
+      "branches": ["master", "main"]
+  },
   "homepage": "https://github.com/sk4red/azure-node-express#readme"
+  
 }
